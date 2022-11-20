@@ -3,11 +3,11 @@
 # swiss-public-transport-mod
 Based on [@agners lovelace card](https://github.com/agners/swiss-public-transport-card "@agners lovelace card"):
 
-Extends the [swiss_public_transport](https://www.home-assistant.io/integrations/swiss_public_transport/ "swiss_public_transport") sensor by a few features required to visualize a proper [stationboard](https://github.com/neuhausf/lovelace-swiss-stationboard "stationboard"):
+Extends the [swiss_public_transport](https://www.home-assistant.io/integrations/swiss_public_transport/ "swiss_public_transport") sensor by a few features required to visualize a proper [stationboard](https://github.com/rohit01/lovelace-swiss-stationboard "stationboard"):
 - `stationboard` property
 - `limit` property
 
-@agners implementation depends upon a [pull-request](https://github.com/home-assistant/home-assistant/pull/30715 "pull-request") which was never merged. To simplify the installation of this sensor, I created two HACS repositories (this one and one for the [lovelace-card](https://github.com/neuhausf/lovelace-swiss-stationboard "lovelace-card")).
+@agners implementation depends upon a [pull-request](https://github.com/home-assistant/home-assistant/pull/30715 "pull-request") which was never merged. To simplify the installation of this sensor, I created two HACS repositories (this one and one for the [lovelace-card](https://github.com/rohit01/lovelace-swiss-stationboard "lovelace-card")).
 
 ## Information
 
@@ -16,7 +16,7 @@ Extends the [swiss_public_transport](https://www.home-assistant.io/integrations/
 ## Configuration
 
 - Got to HACS
-- Add a custom repo: https://github.com/neuhausf/swiss-public-transport-mod
+- Add a custom repo: https://github.com/rohit01/swiss-public-transport-mod
 - Install it
 
 Add a new sensor to your `configuration.yaml`:
